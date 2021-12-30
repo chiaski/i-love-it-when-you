@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  cursor: pointer !important;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 1em;
+}
+
+
+main {
+  text-align: center;
+  font-size: 2.6em;
+  line-height: 90%;
+  letter-spacing: -1.5px;
+}
+
+#g {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#g div {
+  padding: .15em;
+  display: inline;
+  line-height: 98vh;
+  width: 48%;
+}
+
+#g #i-love-it {
+  /*  background: red;*/
+  height: 100%;
+  text-align: right;
+}
+
+
+#g #i-love-it p,
+#g #when-you p {
+  width: 100%;
+  margin-bottom: .5em;
+  line-height: 90%;
+}
+
+#g #when-you {
+  overflow-x: none;
+  overflow-y: scroll;
+  height: 100%;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
