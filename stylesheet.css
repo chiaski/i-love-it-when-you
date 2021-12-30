@@ -7,6 +7,10 @@ body,
 html {
   margin: 0;
   padding: 1em;
+  transition: background 4s linear;
+  -webkit-transition: background 4s linear;
+  -moz-transition: background 4s linear;
+  overflow: hidden;
 }
 
 
@@ -15,6 +19,17 @@ main {
   font-size: 2.6em;
   line-height: 90%;
   letter-spacing: -1.5px;
+}
+
+/* decorative gradient */
+.grad {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 50vh;
+  pointer-events: none;
+  background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0));
 }
 
 #g {
@@ -43,6 +58,11 @@ main {
   width: 100%;
   margin-bottom: .5em;
   line-height: 90%;
+  pointer-events: none;
+
+  transition: background 4s linear;
+  -webkit-transition: background 4s linear;
+  -moz-transition: background 4s linear;
 }
 
 #g #when-you {
