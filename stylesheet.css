@@ -27,7 +27,7 @@ main {
   left: 0;
   bottom: 0;
   width: 100vw;
-  height: 50vh;
+  height: 80vh;
   pointer-events: none;
   background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0));
 }
