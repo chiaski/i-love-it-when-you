@@ -6,7 +6,7 @@
 body,
 html {
   margin: 0;
-  padding: 1em;
+  padding: .25em;
   transition: background 4s linear;
   -webkit-transition: background 4s linear;
   -moz-transition: background 4s linear;
@@ -46,6 +46,8 @@ main {
   width: 48%;
 }
 
+
+
 #g #i-love-it {
   /*  background: red;*/
   height: 100%;
@@ -73,4 +75,39 @@ main {
   display: flex;
   flex-wrap: wrap;
   vertical-align: middle;
+}
+
+@media only screen and (max-width: 750px) {
+
+  #g {
+    flex-direction: column;
+
+  }
+
+  #g div {
+    width: 100%;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+  }
+
+  #g #i-love-it {
+    height: auto;
+  }
+
+  #g #when-you {
+    margin-top: -1.5em;
+  }
+
+  #g #i-love-it,
+  #g #when-you {
+    text-align: left;
+  }
+
+
+  #g #i-love-it p,
+  #g #when-you p {
+    line-height: 90%;
+  }
+
 }
