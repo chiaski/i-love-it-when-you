@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  cursor: pointer !important;
+}
+
+body,
+html {
+  margin: 0;
+  padding: .25em;
+  transition: background 4s linear;
+  -webkit-transition: background 4s linear;
+  -moz-transition: background 4s linear;
+  overflow: hidden;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+main {
+  text-align: center;
+  font-size: 2.6em;
+  line-height: 90%;
+  letter-spacing: -1.5px;
+}
+
+/* decorative gradient */
+.grad {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 80vh;
+  pointer-events: none;
+  background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0));
+}
+
+#g {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#g div {
+  padding: .15em;
+  display: inline;
+  line-height: 98vh;
+  width: 48%;
+}
+
+
+
+#g #i-love-it {
+  /*  background: red;*/
+  height: 100%;
+  text-align: right;
+}
+
+
+#g #i-love-it p,
+#g #when-you p {
+  width: 100%;
+  margin-bottom: .5em;
+  line-height: 90%;
+  pointer-events: none;
+
+  transition: background 4s linear;
+  -webkit-transition: background 4s linear;
+  -moz-transition: background 4s linear;
+}
+
+#g #when-you {
+  overflow-x: none;
+  overflow-y: scroll;
+  height: 100%;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 750px) {
+
+  #g {
+    flex-direction: column;
+
+  }
+
+  #g div {
+    width: 100%;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+  }
+
+  #g #i-love-it {
+    height: auto;
+  }
+
+  #g #when-you {
+    margin-top: -1.5em;
+  }
+
+  #g #i-love-it,
+  #g #when-you {
+    text-align: left;
+  }
+
+
+  #g #i-love-it p,
+  #g #when-you p {
+    line-height: 90%;
+  }
+
+}
+
+.slider{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 1em .5em;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: .7em;
+}
+
+
+#progress{
+  width: 90%;
+  margin: 0 auto;
+}
