@@ -14,10 +14,8 @@ $(function () {
 
 
 $(document).click(function (e) {
-  // Check for left button
-  if (e.button == 0) {
 
-    //    console.log(c + ": " + when[c]);
+  if (e.button == 0) {
 
     $("<p>" + when[c] + "</p>").hide().prependTo("#when-you").fadeIn(2000);
 
