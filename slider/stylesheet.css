@@ -32,6 +32,7 @@ main {
   bottom: 0;
   width: 100vw;
   height: 80vh;
+  z-index: 5;
   pointer-events: none;
   background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0));
 }
@@ -117,10 +118,10 @@ main {
 }
 
 .slider{
-  bottom: 0;
+  top: 0;
   position: fixed;
   width: 100%;
-  padding: 1em .5em;
+  padding: .25em;
   box-sizing: border-box;
   text-align: center;
   font-size: .7em;
@@ -128,6 +129,7 @@ main {
 
 
 #progress{
+  height: 4px;
   width: 90%;
   margin: 0 auto;
 }
