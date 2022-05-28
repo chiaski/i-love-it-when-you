@@ -18,7 +18,6 @@ $("main").click(function (e) {
   // Check for left button
   if (e.button == 0) {
 
-    //    console.log(c + ": " + when[c]);
     
     if (c >= when.length ) {
 
@@ -86,8 +85,7 @@ $(document).on('input', '#progress', function() {
   
   
   $("#progress").attr("value", $(this).val());
-  
-//    $('#progress').html( $(this).val() );
+
 });
 
 
