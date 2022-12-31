@@ -26,5 +26,8 @@ SLIDER: https://chiaski.github.io/i-love-it-when-you/slider/ <br>
 AUTOMATIC: https://chiaski.github.io/i-love-it-when-you/auto
 <br><br>
 
-Yes, you can make your own! I'd strongly prefer attribution<br>
-To see websites of similar nature, explore https://chiaski.github.io/poeticweb
+yes, you can make your own! I'd strongly prefer attribution<br>
+to see websites of similar nature, explore https://chiaski.github.io/poeticweb
+
+
+friends and lovers license from https://github.com/outofambit/friends-and-lovers-license
